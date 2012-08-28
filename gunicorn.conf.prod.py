@@ -1,6 +1,6 @@
 import os
 
-bind = "0.0.0.0:8080"
+bind = "0.0.0.0:23779"
 workers = 3
 backlog = 2048
 worker_class = "gevent"
