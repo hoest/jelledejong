@@ -1,6 +1,16 @@
 import markdown
-import os
-from flask import Flask, abort, flash, redirect, Markup, render_template, url_for, request
+import os.path
+import datetime
+
+from flask import abort
+from flask import flash
+from flask import Flask
+from flask import Markup
+from flask import redirect
+from flask import render_template
+from flask import request
+from flask import make_response
+from flask import url_for
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
@@ -17,6 +27,7 @@ def show(page = "home"):
   # Try to open the text file, returning a 404 upon failure
   try:
     with open(page_file, "r") as f:
+
       # Read the entire file, converting Markdown content to HTML
       content = f.read()
       content = Markup(md.convert(content))
@@ -26,7 +37,13 @@ def show(page = "home"):
       if not os.path.exists("/templates/%s" % template):
         template = "home.html"
 
-      return render_template(template, **locals())
+      # set last-modified header
+      response = make_response(render_template(template, **locals()))
+      lastModified = os.path.getmtime(page_file)
+      lastModifiedUtc = datetime.datetime.utcfromtimestamp(lastModified)
+      response.headers.add("Last-Modified", lastModifiedUtc.strftime("%a, %d %b %Y %H:%M:%S GMT"))
+
+      return response;
   except IOError as e:
     return abort(404)
 
