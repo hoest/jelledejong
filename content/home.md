@@ -1,3 +1,9 @@
+Title:    My Document
+Summary:  A brief description of my document.
+Author:   Jelle de Jong
+Date:     October 2, 2007
+Keywords: test, aap, noot
+
 Jelle de Jong
 ===
 In Dutch

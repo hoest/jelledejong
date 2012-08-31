@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>jelledejong.org - {{ meta['title'][0] }}</title>
+    <meta name="generator" content="GnojEd - Markdown CMS - http://www.gnojed.nl/" />
+    <meta name="author" content="{{ meta['author'][0] }}" />
+    <meta name="description" content="{{ meta['summary'][0] }}" />
+    <meta name="keywords" content="{{ meta['keywords'][0] }}" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+    <script src="{{ url_for('static', filename='js/modernizr-2.6.1.min.js') }}"></script>
+  </head>
+  <body>
+
+    {%- with messages = get_flashed_messages(with_categories = True) -%}
+      {%- if messages -%}
+        <ul class="flashes">
+        {%- for category, message in messages -%}
+          <li class="{{ category }}">{{ message }}</li>
+        {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    {%- endwith -%}
+    {%- block content -%}
+    {%- endblock -%}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{ url_for('static', filename='js/jquery-1.8.0.min.js') }}"><\/script>')</script>
+  </body>
+</html>
