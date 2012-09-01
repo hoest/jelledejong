@@ -2,7 +2,7 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8" />
-    <title>jelledejong.org - {{ meta['title'][0] }}</title>
+    <title>{{ meta['title'][0] }} - jelledejong.org</title>
     <meta name="generator" content="GnojEd - Markdown CMS - http://www.gnojed.nl/" />
     <meta name="author" content="{{ meta['author'][0] }}" />
     <meta name="description" content="{{ meta['summary'][0] }}" />
@@ -15,8 +15,17 @@
   </head>
   <body>
     <div class="main">
-      <header class="header picture">
-        <h1>{{ meta['title'][0] }}</h1>
+      <header class="header">
+        <div class="picture"></div>
+        <div class="logo"></div>
+        <h1>{{ meta['title'][0] }} - jelledejong.org</h1>
+        <div class="social">
+          <a href="http://www.facebook.com/jelle/" title="Facebook"><img src="{{ url_for('static', filename='images/facebook.png') }}" alt="Facebook" /></a>
+          <a href="http://www.flickr.com/photos/hoest/" title="Flickr"><img src="{{ url_for('static', filename='images/flickr.png') }}" alt="Flickr" /></a>
+          <a href="http://www.linkedin.com/in/dejongjelle/" title="LinkedIn"><img src="{{ url_for('static', filename='images/linkedin.png') }}" alt="LinkedIn" /></a>
+          <a href="mailto:jelle@hoest.nl" title="Mail mij"><img src="{{ url_for('static', filename='images/gmail.png') }}" alt="Mail mij" /></a>
+          <a href="http://twitter.com/hoest/" title="Twitter"><img src="{{ url_for('static', filename='images/twitter.png') }}" alt="Twitter" /></a>
+        </div>
       </header>
       {%- with messages = get_flashed_messages(with_categories = True) -%}
         {%- if messages -%}

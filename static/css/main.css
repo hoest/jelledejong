@@ -22,7 +22,10 @@ body {
   font-size: .9em;
   line-height: 1.4;
   text-align: center;
-  background-color: #999;
+  background-color: #626367;
+  background-image: url('/static/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*
@@ -100,10 +103,12 @@ textarea {
   text-align: left;
   background-color: #ccc;
   border-radius: 15px;
+  position: relative;
 }
 
 .article {
   padding: 10px;
+  clear: both;
 }
 
 .article a {
@@ -122,16 +127,33 @@ textarea {
 }
 
 .header {
+  clear: both;
+  height: 105px;
+  position: relative;
+}
+
+.header .logo {
   background-image: url('/static/images/logo.png');
   background-repeat: no-repeat;
   background-position: top right;
+  width: 336px;
   height: 105px;
+  float: right;
 }
 
-.main {
+.header .social {
+  position: absolute;
+  top: 125px;
+  left: 25px;
+}
+
+.header .picture {
   background-image: url('/static/images/jelle.png');
   background-repeat: no-repeat;
-  background-position: 10px 10px;
+  margin: 10px;
+  width: 130px;
+  height: 134px;
+  float: left;
 }
 
 .header h1 {

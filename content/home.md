@@ -8,21 +8,20 @@ Curriculum Vitae
 ===
 Jelle de Jong
 ---
-[Soest][1]
-Nederland
-[jelle@hoest.nl][2]
-[LinkedIn profiel][3]
+[Soest][1], [Nederland][2]
 
 Kennis van
 ---
-**Talen/frameworks**: C#, ASP.NET, XML, HTML(5), CSS, JavaScript, PowerShell, Python, Ruby (RoR)
+###Talen/frameworks
+C#, ASP.NET, XML, XSLT, HTML(5), CSS, JavaScript, PowerShell, Python, Ruby
 
-**Producten**: Visual Studio, (N)Ant, CVS, Git, TeamCity (Continuous Integration), Windows, Linux, OSX
+###Producten
+Visual Studio, (N)Ant, CVS, Git, TeamCity (Continuous Integration), Vim, Sublime Text, Windows, Linux, OSX
 
 Werkervaring
 ---
 ###Senior Developer
-Waar: [InfoProjects][4]
+Waar: [InfoProjects][3]
 Periode: 2003 - heden
 
 Na mijn studie ben ik gestart bij InfoProjects. In 2003 kwam ik daar terecht als junior en ik heb me in korte tijd ontwikkeld tot stabiele kracht binnen het team van ontwikkelaars en inmiddels ben ik werkzaam als senior developer en technisch verantwoordelijk voor vele projecten, waaronder IPROX-CMS, IPROX-FORMS en Amsterdam Op de Kaart.
@@ -34,7 +33,7 @@ Periode: 1999 - 2003
 Dit bedrijf heb ik tijdens mijn studie economie opgezet. Tijdens mijn studie Informatica is het gegroeid naar een bedrijf met diverse vaste klanten waarbij ik veel opgedane kennis kon uitvoeren in de praktijk.
 
 ###Afstudeerstage
-Waar: [JTeam][5] (tegenwoordig: _Orange11_)
+Waar: [JTeam][4] (tegenwoordig: _Orange11_)
 Periode: 2003
 
 Gedurende mijn laatste jaar van mijn studie Informatica heb ik bij JTeam veel ervaring opgedaan in het ontwikkelen van een grote (web)applicatie, geschreven met een team en in Java.
@@ -50,24 +49,23 @@ Als student heb ik bij Omni Trade BV te Soest mijn eerste stage gelopen. Hier be
 Opleidingen
 ---
 ###Hogere Informatica
-Waar: [Hogeschool van Utrecht][6]
+Waar: [Hogeschool van Utrecht][5]
 Periode: 1999-2003
 Relevante kennis: UML, Java, SQL, C++, diverse Microsoft producten
 
 ###Economie
-Waar: [Vrije Universiteit Amsterdam][7]
+Waar: [Vrije Universiteit Amsterdam][6]
 Periode: 1997-1999
 
 ###VWO
-Waar: [Het Baarnsch Lyceum][8]
+Waar: [Het Baarnsch Lyceum][7]
 Periode: 1991-1997
 Vakkenpakket: Nederlands, Engels, Economie I, Economie II, Natuurkunde, Scheikunde, Wiskunde B
 
-[1]: https://maps.google.com/maps?q=Soest,+Nederland "Soest op de kaart"
-[2]: mailto:jelle@hoest.nl "Mail mij"
-[3]: http://www.linkedin.com/in/dejongjelle "LinkedIn profiel"
-[4]: http://www.infoprojects.nl/
-[5]: http://www.orange11.nl/
-[6]: http://www.hu.nl/
-[7]: http://www.vu.nl/
-[8]: http://www.hetbaarnschlyceum.nl/
+[1]: https://maps.google.com/maps?q=Soest,+Nederland
+[2]: https://maps.google.com/maps?q=Nederland
+[3]: http://www.infoprojects.nl/
+[4]: http://www.orange11.nl/
+[5]: http://www.hu.nl/
+[6]: http://www.vu.nl/
+[7]: http://www.hetbaarnschlyceum.nl/
