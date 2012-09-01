@@ -36,6 +36,8 @@ Periode: 1999 - 2003
 
 Dit bedrijf heb ik tijdens mijn studie economie opgezet. Tijdens mijn studie Informatica is het gegroeid naar een bedrijf met diverse vaste klanten waarbij ik veel opgedane kennis kon uitvoeren in de praktijk.
 
+Meest gebruikte technieken waren toentertijd PHP, XML, SQL (MySQL), JavaScript en CSS.
+
 ###Afstudeerstage
 Waar: [JTeam][4] (tegenwoordig: _Orange11_)
 Periode: 2003
