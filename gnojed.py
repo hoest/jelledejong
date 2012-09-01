@@ -19,7 +19,7 @@ app.secret_key = os.urandom(24)
 @app.route("/<page>")
 @app.route("/<page>/")
 def show(page = "home"):
-  md = markdown.Markdown(extensions = ["meta", "abbr", "footnotes", "tables"], output_format = "html5")
+  md = markdown.Markdown(extensions = ["meta", "abbr", "footnotes", "tables", "nl2br"], output_format = "html5")
 
   # Each URL maps to the corresponding .txt file in ./content/
   page_file = "./content/%s.md" % page

@@ -15,12 +15,14 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+  color: #222;
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+  font-size: .9em;
+  line-height: 1.4;
+  text-align: center;
+  background-color: #999;
 }
 
 /*
@@ -92,22 +94,49 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.main {
+  width: 640px;
+  margin: 2em auto;
+  text-align: left;
+  background-color: #ccc;
+  border-radius: 15px;
+}
 
+.article {
+  padding: 10px;
+}
 
+.article a {
+  color: #ff8000;
+  text-decoration: none;
+}
 
+.article a:hover {
+  text-decoration: underline;
+}
 
+.article h1 {
+  margin-top: 5px;
+  text-align: right;
+  color: #ff8000;
+}
 
+.header {
+  background-image: url('/static/images/logo.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 105px;
+}
 
+.main {
+  background-image: url('/static/images/jelle.png');
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+}
 
-
-
-
-
-
-
-
-
-
+.header h1 {
+  text-indent: -9999px;
+}
 
 /* ==========================================================================
    Helper classes
