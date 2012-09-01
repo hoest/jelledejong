@@ -42,7 +42,7 @@ Hier heb ik kennis opgedaan van bijvoorbeeld het belang van versiebeheer en van 
 
 ###Eerste stage
 Waar: Omni Trade BV
-January 2002 - June 2002 (6 months)
+Periode: 2002
 
 Als student heb ik bij Omni Trade BV te Soest mijn eerste stage gelopen. Hier ben ik actief geweest in de automatisering, het aanleggen van uitgebreide netwerken tot installaties van Windows en Linux server-/client-omgevingen, diverse dingen zijn op mijn pad gekomen.
 
