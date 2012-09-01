@@ -24,7 +24,11 @@ Werkervaring
 Waar: [InfoProjects][3]
 Periode: 2003 - heden
 
-Na mijn studie ben ik gestart bij InfoProjects. In 2003 kwam ik daar terecht als junior en ik heb me in korte tijd ontwikkeld tot stabiele kracht binnen het team van ontwikkelaars en inmiddels ben ik werkzaam als senior developer en technisch verantwoordelijk voor vele projecten, waaronder IPROX-CMS, IPROX-FORMS en Amsterdam Op de Kaart.
+Na mijn studie ben ik gestart bij InfoProjects. In 2003 kwam ik daar terecht als junior developer en ik heb me in korte tijd ontwikkeld tot stabiele kracht binnen het team van ontwikkelaars en inmiddels ben ik werkzaam als senior developer en technisch verantwoordelijk voor vele projecten, waaronder het IPROX-CMS, IPROX-Modules, IPROX-FORMS en diverse implementaties van deze producten.
+
+Daarnaast ben ik samen met een collega verantwoordelijk voor de implementatie van onze eigen '[Continuous Integration & Deployment][8]' straat. Het is nu mogelijk om met slechts enkele acties, een nieuw ontwikkelde feature vanuit de ontwikkelomgeving live te zetten in de productieomgeving.
+
+Een kleine greep van uitgevoerde projecten is te bekijken op de website van [InfoProjects BV][3]. De technieken die gebruikt worden binnen InfoProjects zijn: C#, ASP.NET, SQL (Microsoft SQL of Oracle), XML, XSLT, HTML(5), JavaScript en CSS.
 
 ###Directeur
 Waar: Hoest Internet Productions
@@ -69,3 +73,4 @@ Vakkenpakket: Nederlands, Engels, Economie I, Economie II, Natuurkunde, Scheikun
 [5]: http://www.hu.nl/
 [6]: http://www.vu.nl/
 [7]: http://www.hetbaarnschlyceum.nl/
+[8]: http://en.wikipedia.org/wiki/Continuous_integration
